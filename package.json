@@ -1,0 +1,25 @@
+{
+  "name": "cross-nft",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "hardhat": "^2.13.0",
+    "hardhat-gas-reporter": "^1.0.9"
+  },
+  "dependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^1.0.6",
+    "@openzeppelin/contracts": "^4.8.2",
+    "@routerprotocol/router-crosstalk-utils": "^1.0.6",
+    "dotenv": "^16.0.3",
+    "evm-gateway-contract": "^1.0.8"
+  }
+}
